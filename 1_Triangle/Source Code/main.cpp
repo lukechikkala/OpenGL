@@ -6,7 +6,7 @@ int main(void)
     GLFWwindow* window;
     if (!glfwInit())
         return -1;
-    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    window = glfwCreateWindow(640, 480, "Triangle", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
