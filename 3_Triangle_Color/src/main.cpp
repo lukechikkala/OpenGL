@@ -37,7 +37,7 @@ int main()
 	};
 
 	// ---------- Creating that Window
-	GLFWwindow* window = glfwCreateWindow(800, 800, "Luke", NULL, NULL); // Replace first NULL with 'glfwGetPrimaryMonitor()' to run Full Screen on First Monitor.
+	GLFWwindow* window = glfwCreateWindow(800, 800, "Basic Shaders", NULL, NULL); // Replace first NULL with 'glfwGetPrimaryMonitor()' to run Full Screen on First Monitor.
 
 	// ---------- Displaying the error if the window fails to be created.
 	if (window == NULL)

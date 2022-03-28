@@ -14,7 +14,7 @@ int main()
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
 	// ---------- Creating that Window
-	GLFWwindow* window = glfwCreateWindow(800, 800, "Luke", NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow(800, 800, "The Dublin Pub Crawl", NULL, NULL);
 
 	// ---------- Displaying the error if the window fails to be created.
 	if (window == NULL)
