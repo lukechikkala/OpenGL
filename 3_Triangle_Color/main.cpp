@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -108,6 +109,7 @@ int main()
 	glDeleteProgram(shaderProgram);
 
 	glfwDestroyWindow(window);
+
 	// ----------> End <----------
 	glfwTerminate();
 }
