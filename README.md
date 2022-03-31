@@ -62,3 +62,7 @@ Since the idea of this example is to show Element Buffer Objects in the most sim
 This example is the same as 7_Mehr_Dreiecke except this time we also invlove fragment shader to take care of each vertex's color.
 
 ![8_Mehr_Dreiecke_Color](8_Mehr_Dreiecke_Color/docs/8_Mehr_Dreiecke_Color.png)
+
+## 9_Textures
+
+![9_Textures](9_Textures/docs/9_Textures.png)
